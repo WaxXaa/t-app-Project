@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Minicasa",
+      "icon": "villa"
+    },
+    {
+      "id": 2,
+      "name": "Lago",
+      "icon": "pool"
+    },
+    {
+      "id": 3,
+      "name": "Montaña",
+      "icon": "filter_hdr"
+    },
+    {
+      "id": 4,
+      "name": "Playa",
+      "icon": "beach_access"
+    },
+    {
+      "id": 5,
+      "name": "Ciudad",
+      "icon": "apartment"
+    },
+    {
+      "id": 6,
+      "name": "Bosque",
+      "icon": "forest"
+    },
+    {
+      "id": 7,
+      "name": "Cabaña",
+      "icon": "bungalow"
+    },
+    {
+      "id": 8,
+      "name": "Granja",
+      "icon": "agriculture"
+    },
+    {
+      "id": 9,
+      "name": "Popular",
+      "icon": "local_fire_department"
+    }
+  ]
+}
