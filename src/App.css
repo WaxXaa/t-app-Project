@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+main {}
+
 @media (max-width: 767px) {
   header {
     height: 144px;
@@ -11,7 +13,7 @@
   }
 
   .nav-main {
-    margin: 15px 15px;
+    padding: 15px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,5 +42,14 @@
     align-items: center;
   }
 
-  .category-item:active {}
+  .container-main {
+    margin: 20px;
+  }
+
+  .mini-card-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+  }
+
 }
