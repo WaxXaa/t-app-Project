@@ -2,9 +2,9 @@ import { Card, Button } from 'keep-react'
 const ProductCard = () => {
   return (
     <Card
-      className="max-w-lg overflow-hidden rounded-xl"
+      className="p-crad overflow-hidden rounded-xl"
       imgSrc="https://images.prismic.io/staticmania/56ae80e7-4d23-4bd9-a2f3-01bd6f923a8b_product-2.avif?auto=compress,format"
-      imgSize="md">
+      imgSize="lg">
       <Card.Container className="absolute right-3.5 top-3.5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-metal-50/50">
       </Card.Container>
       <Card.Container className="space-y-4 p-6">

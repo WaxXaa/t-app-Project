@@ -6,20 +6,25 @@
 
 main {}
 
-@media (max-width: 767px) {
+@media (max-width: 550px) {
   header {
     height: 144px;
     border-bottom: rgba(236, 236, 236, 0.747) 2px solid;
   }
 
   .nav-main {
-    padding: 15px 15px;
+    margin: 15px 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+
   }
 
-  .nav-main .child {
+  .nav-main .search-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-main div .child {
     margin: 0 10px;
 
   }
@@ -31,6 +36,7 @@ main {}
   .category-carousel {
     display: flex;
     overflow-x: auto;
+    margin-top: 6px;
   }
 
   .category-item {
@@ -43,13 +49,14 @@ main {}
   }
 
   .container-main {
-    margin: 20px;
+    margin: 5px 20px;
   }
 
   .mini-card-carousel {
     display: flex;
     overflow-x: auto;
-    gap: 20px;
+    gap: 10px;
+    flex-wrap: nowrap;
   }
 
 }
